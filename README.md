@@ -359,7 +359,7 @@ cd Kunsan-University-Dormitory-auto-check
 
 Download Python:
 
- [oai_citation:0‡python.org](https://www.python.org/downloads/?utm_source=chatgpt.com)
+ [https://www.python.org/downloads/?utm_source=chatgpt.com](https://www.python.org/downloads/?utm_source=chatgpt.com)
 
 During installation:
 
