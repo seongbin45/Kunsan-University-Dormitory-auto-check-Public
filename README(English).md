@@ -340,7 +340,7 @@ strategies.
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/autocheckfromkunsan-art/Kunsan-University-Dormitory-auto-check.git
+git clone https://github.com/seongbin45/Kunsan-University-Dormitory-auto-check.git
 ```
 
 ---
@@ -538,7 +538,7 @@ files as executable workflows.
 
 ## 1. Open Repository
 
- [oai_citation:1‡github.com](https://github.com/autocheckfromkunsan-art/Kunsan-University-Dormitory-auto-check?utm_source=chatgpt.com)
+ [oai_citation:1‡github.com](https://github.com/seongbin45/Kunsan-University-Dormitory-auto-check-Public)
 
 ---
 
