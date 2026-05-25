@@ -536,7 +536,7 @@ main.yml
 
 ## 1. GitHub 레포지스토리 접속
 
-https://github.com/autocheckfromkunsan-art/Kunsan-University-Dormitory-auto-check
+https://github.com/seongbin45/Kunsan-University-Dormitory-auto-check-Public
 
 ---
 
