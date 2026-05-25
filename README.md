@@ -325,7 +325,7 @@ Logging & Exit
 ## 1. Repository Clone
 
 ```bash
-git clone https://github.com/autocheckfromkunsan-art/Kunsan-University-Dormitory-auto-check.git
+git clone https://github.com/seongbin45/Kunsan-University-Dormitory-auto-check.git
 ```
 
 ---
