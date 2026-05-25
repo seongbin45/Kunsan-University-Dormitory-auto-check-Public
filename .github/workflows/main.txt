@@ -1,0 +1,49 @@
+name: Kunsan Daily Check
+
+on:
+  schedule:
+    - cron: '17 23 * * *'                 # KST 매일 오전 8:17 (UTC 23:17)
+    - cron: '37 3,10,12,13 * * *'         # KST 매일 오후 12:37, 7:37, 9:37, 10:37 (UTC 03:37, 10:37, 12:37, 13:37)
+  workflow_dispatch:
+    inputs:
+      message:
+        description: '단축어에서 보낼 메시지'
+        required: true
+        default: 'Hello from iPhone!'
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      # v3 -> v4로 업데이트하여 Node.js 경고 해결
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # v4 -> v5로 업데이트하여 Node.js 경고 해결
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Playwright
+        run: pip install playwright
+
+      - name: Install Playwright system dependencies
+        run: sudo npx playwright install-deps chromium
+
+      - name: Install Chromium browser
+        run: playwright install chromium
+
+      # 공식 액션을 사용해 브라우저와 의존성을 더 효율적으로 설치합니다.
+      - name: Ensure browsers are installed
+        run: python -m playwright install chromium --with-deps
+
+      - name: Run Script
+        env:
+          USER_ID: ${{ secrets.USER_ID }}
+          USER_PW: ${{ secrets.USER_PW }}
+        # 파일이 루트 디렉토리에 있다면 아래 명령어로 충분합니다.
+        run: python .github/kunsan_github.py
