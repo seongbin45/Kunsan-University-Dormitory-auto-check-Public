@@ -939,7 +939,7 @@ docs/
 
 Developed by
 
-https://github.com/autocheckfromkunsan-art
+https://github.com/seongbin45
 
 ---
 
