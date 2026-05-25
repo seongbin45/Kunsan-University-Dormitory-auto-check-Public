@@ -61,11 +61,12 @@ You may remove the favorite afterward if desired.
 
 # 🎥 Demo
 
-```md
-![demo](./docs/demo.gif)
-```
+<img src="./docs/demo.gif" width="100%">
 
-Recommended GIF scenes:
+
+All execution logic is as follows:)
+
+```md
 
 1. Login
 2. Open integrated portal
@@ -74,6 +75,8 @@ Recommended GIF scenes:
 5. Click Save
 6. Popup auto-confirmation
 7. Success logs
+
+```
 
 ---
 
