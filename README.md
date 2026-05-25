@@ -538,7 +538,7 @@ files as executable workflows.
 
 ## 1. Open Repository
 
- [oai_citation:1‡github.com](https://github.com/seongbin45/Kunsan-University-Dormitory-auto-check-Public)
+ [https://github.com/seongbin45/Kunsan-University-Dormitory-auto-check-Public](https://github.com/seongbin45/Kunsan-University-Dormitory-auto-check-Public)
 
 ---
 
@@ -897,7 +897,7 @@ instead of traditional Selenium-style automation.
 
 Developed by
 
- [oai_citation:2‡github.com](https://github.com/seongbin45)
+ [https://github.com/seongbin45](https://github.com/seongbin45)
 
 ---
 
