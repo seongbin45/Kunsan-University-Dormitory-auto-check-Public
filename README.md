@@ -63,7 +63,6 @@ You may remove the favorite afterward if desired.
 
 <img src="./docs/demo.gif" width="100%">
 
-
 All execution logic is as follows:)
 
 ```md
