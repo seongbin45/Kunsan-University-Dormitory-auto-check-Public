@@ -320,8 +320,6 @@ strategies.
 │       ├── main.txt
 │       └── main.yml
 │
-├── main.py
-├── requirements.txt
 ├── README.md
 ├── LICENSE
 │
