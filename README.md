@@ -1,3 +1,7 @@
+Languages: [English](README.md) | [한국어](README.ko.md)
+
+#
+
 # Kunsan University Dormitory Auto Check
 
 A browser automation system for the  
